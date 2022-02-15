@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  text-align: center;
+  margin: 40px 0;
+  font-size: 1.5em;
+}
+i {
+  color: rgba(255, 69, 0, 0.8);
+}
+form {
+  display: flex;
+  flex-flow: column nowrap;
+  max-width: 70%;
+  margin: 20px auto;
+}
+form label {
+  margin-bottom: 10px;
+}
+form input {
+  margin-bottom: 30px;
+  padding: 13px;
+}
+button {
+  cursor: pointer;
+  background-color: rgba(255, 69, 0, 0.8);
+  color: white;
+  margin: auto;
+  width: 35%;
+  padding: 12px;
+}
+
+button:hover {
+  scale: (1.2, 1.2);
+}

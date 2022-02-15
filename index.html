@@ -1,13 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>Document</title>
-</head>
-<body>
-  <script src="/main.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/fcc58b05cb.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1 class="address"><i class="fa-solid fa-book-open"></i> My Library</h1>
+    </div>
+    <form class="book-form">
+      <label for="title">Title</label>
+      <input type="text" id="title" placeholder="ex..The Witcher" />
+      <label for="author">Author</label>
+      <input type="text" id="author" placeholder="ex..John Smith" />
+      <label for="isbn">ISBN#</label>
+      <input type="text" id="isbn" placeholder="12345.." />
+      <button class="addBook" type="submit">Add Book</button>
+    </form>
+    <script src="/main.js"></script>
+  </body>
 </html>
